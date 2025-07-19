@@ -1,0 +1,66 @@
+body {
+    width: 860px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    background-color: gray;
+}
+header {
+    padding: 2em 2em 0em 2em;
+    justify-self: center;
+    align-self: end;
+}
+header nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    column-gap: 5em;
+}
+header button {
+    font-size: 2em;
+    background-color: orange;
+    border: none;
+    border-radius: 20% 20% 0 0;
+    padding: 1em;
+}
+
+#content {
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    row-gap: 1em;
+}
+#content>* {
+    background-color: yellow;
+    border: 4px dotted black;
+    padding: 1em 2em;
+    display: grid;
+    justify-content: center;
+}
+#content h3 {
+    font-size: 3em;
+    margin: 1em 0em;
+}
+
+#quote-author {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: grey;
+}
+#content table caption {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+#location-title {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.food-card img{
+    width: 100%;
+}
